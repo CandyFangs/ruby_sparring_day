@@ -1,7 +1,9 @@
-require 'spec_helper'
 require_relative '../services/zoo'
+require 'spec_helper'
 
 describe Zoo do
+
+  
   describe '#inventory' do
     let(:alligator_roger) { Alligator.new(name: 'Roger', description: 'Likes to swim in the sewer') }
     let(:otter_marlene) { Otter.new(name: 'Marlene', description: 'Is a really smart female otter') }
